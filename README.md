@@ -1,4 +1,4 @@
-#XLSX to Firebase (with support large files)
+# XLSX to Firebase (with support large files)
 
 
 1. `npm install`
