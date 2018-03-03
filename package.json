@@ -1,0 +1,33 @@
+{
+  "name": "large_csv_import_to_firestore",
+  "version": "0.1.0",
+  "description": "NodeJS based tool for import large CSV files into the Firestore",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "realtimedb": "node realtimedbimport.js",
+    "csv": "node csvimport.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrtovmach/large_csv_import_to_firestore.git"
+  },
+  "keywords": [
+    "csv",
+    "firestore",
+    "large",
+    "csv",
+    "import"
+  ],
+  "author": "Alexandr Tovmach <alexandrtovmach@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrtovmach/large_csv_import_to_firestore/issues"
+  },
+  "homepage": "https://github.com/alexandrtovmach/large_csv_import_to_firestore#readme",
+  "dependencies": {
+    "csvtojson": "^1.1.9",
+    "firebase-admin": "^5.9.1",
+    "xlsx": "^0.12.3"
+  }
+}
